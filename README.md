@@ -10,13 +10,16 @@ two warehouses**.
 
 ## Results
 
-**416 of 420 observed snapshot records matched (99.05%).** Four records
-were flagged for investigation: one P1 and three P2. The P1 record was
+From 1 to 7 September 2026, **416 of 420 simulated inventory observations
+matched between ERP and WMS (99.05%)**. The reconciliation flagged four
+exceptions for investigation, one P1 and three P2. The P1 exception was
 BAT009 at WH01, where the ERP snapshot had no corresponding WMS record.
 
+![Daily inventory reconciliation exceptions from 1 to 7 September 2026. One exception per day from 2 to 5 September and zero on the other three days.](docs/images/daily-reconciliation-exceptions.png)
+
 The [inventory operations report](docs/operations-report.md) contains the
-seven-day summary, the four-item investigation queue, metric definitions
-and a worked example showing why ERP and WMS availability differ for BAT001.
+seven-day summary, the investigation queue, metric definitions and a
+worked example explaining the difference in available quantity for BAT001.
 
 ## Reconciliation rules
 
